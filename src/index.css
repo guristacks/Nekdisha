@@ -93,9 +93,7 @@ ul li a:hover {
 .svg {
   background-color: #fff;
   border-radius: 50%;
-  padding: 4px;
-  padding-left: 7px;
-  padding-top: 6px;
+  padding: 6px 6px 4px 7px;
   margin-right: 6px;
 }
 .heroSec {
@@ -165,18 +163,28 @@ h1 {
     object-fit: contain;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   br {
     display: none;
+  }
+  .heroOne {
+    gap: 1rem;
+    margin-top: 15vh;
+  }
+  .heroOne p:nth-child(3) {
+    font-size: 14px;
   }
   .oneHalf {
     flex-direction: column;
     align-items: baseline;
   }
+  .cta a {
+    font-size: 14px;
+  }
   .userImages img {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #8f8a8a;
