@@ -1,0 +1,88 @@
+.heroSec {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/16019514/pexels-photo-16019514.jpeg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heroOne {
+  gap: 1.4rem;
+}
+.heroOne p:first-child {
+  color: orangered;
+}
+.heroOne p:nth-child(3) {
+  width: 50%;
+  font-size: 16px;
+}
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+}
+.oneHalf {
+  gap: 1rem;
+}
+.userImages img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.userImages img:nth-child(2),
+.userImages img:nth-child(3),
+.user4 {
+  margin-left: -1rem;
+}
+
+.user4 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(233, 232, 232);
+  border-radius: 50%;
+  margin-left: -1rem;
+  p {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heroSec {
+    background-position: 50%;
+  }
+  .heroOne p:nth-child(3) {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .heroOne p:nth-child(3) {
+    width: fit-content;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.3rem;
+    line-height: 1.1;
+  }
+  .heroOne {
+    gap: 1rem;
+    margin-top: 15vh;
+  }
+  .oneHalf {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .userImages img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #8f8a8a;
+  }
+}
