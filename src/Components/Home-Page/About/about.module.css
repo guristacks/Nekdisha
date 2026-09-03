@@ -1,0 +1,116 @@
+.aboutSec {
+  padding: 6rem 0;
+  background-color: #fff;
+}
+.aboutSec {
+  color: #000;
+  h2,
+  p {
+    color: #000;
+  }
+}
+
+.aboutContent {
+  gap: 4rem;
+}
+.heart,
+.aboutUs {
+  width: 50%;
+}
+.aboutUs {
+  gap: 1rem;
+}
+.aboutUs p:nth-child(1) {
+  color: orangered;
+}
+.aboutUs p:nth-child(3) {
+  line-height: 1.5;
+}
+.aboutInner {
+  gap: 2rem;
+}
+.start {
+  gap: 0.5rem;
+  width: 50%;
+}
+.aboutInner img {
+  width: 50%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.start1 svg,
+.start2 svg {
+  background-color: orangered;
+  padding: 7px;
+  height: 30px;
+  width: 30px;
+}
+.aboutCta {
+  gap: 1rem;
+
+  p {
+    color: #000 !important;
+  }
+}
+.cta2 svg {
+  padding: 8px;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #000;
+  background: none;
+}
+.call a {
+  color: #000;
+  font-weight: 500;
+}
+.call {
+  gap: 0.3rem;
+}
+.call a:hover {
+  color: orangered;
+  transition: 0.3s ease;
+}
+@media (max-width: 1024px) {
+  .aboutSec h2 {
+    font-size: 3rem;
+  }
+  .aboutInner {
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  .aboutInner img {
+    width: 70%;
+  }
+  .start {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .aboutSec h2 {
+    font-size: 2.5rem;
+  }
+  .aboutContent {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .heart,
+  .aboutUs {
+    width: 100%;
+  }
+  .aboutInner img {
+    width: 50%;
+  }
+  .aboutCta {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+@media (max-width: 480px) {
+  .aboutSec h2 {
+    font-size: 2rem;
+  }
+  .aboutInner img {
+    width: 70%;
+  }
+}
