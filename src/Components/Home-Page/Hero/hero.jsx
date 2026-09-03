@@ -23,9 +23,21 @@ const Hero = () => {
               <a href="#">Make Donation</a>
             </div>
             <div className={`${styles.userImages} flex ac`}>
-              <img loading="lazy" src="/HomePage/user-1.png" alt="User Image" />
-              <img loading="lazy" src="/HomePage/user-2.png" alt="User Image" />
-              <img loading="lazy" src="/HomePage/user-3.png" alt="User Image" />
+              <img
+                loading="lazy"
+                src="/HomePage/Hero/user-1.png"
+                alt="User Image"
+              />
+              <img
+                loading="lazy"
+                src="/HomePage/Hero/user-2.png"
+                alt="User Image"
+              />
+              <img
+                loading="lazy"
+                src="/HomePage/Hero/user-3.png"
+                alt="User Image"
+              />
               <div className={`${styles.user4} flex ac jc`}>
                 <p>1K+</p>
               </div>

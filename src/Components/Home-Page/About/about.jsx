@@ -12,7 +12,7 @@ const About = () => {
           <div className={styles.heart}>
             <img
               loading="lazy"
-              src="/HomePage/about-img.png"
+              src="/HomePage/About/about-img.png"
               alt="Experience Image"
             />
           </div>
@@ -38,7 +38,7 @@ const About = () => {
               </div>
               <img
                 loading="lazy"
-                src="/HomePage/about-block-img.jpg"
+                src="/HomePage/About/about-block-img.jpg"
                 alt="Team image"
               />
             </div>

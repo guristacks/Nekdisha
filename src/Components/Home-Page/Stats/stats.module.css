@@ -1,0 +1,93 @@
+.statsSec {
+  padding: 6rem 0;
+  background: rgb(30, 37, 47);
+}
+.statsSec::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0px;
+  background: url("../../../../public/section-bg.svg");
+  mix-blend-mode: multiply;
+  opacity: 0.4;
+}
+.statsContent {
+  gap: 2rem;
+}
+.statsBox {
+  width: 25%;
+  border: 1px solid rgb(233, 231, 231);
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  padding: 1rem;
+  gap: 0.5rem;
+  text-align: center;
+}
+.statsBox:first-child:hover {
+  background: url("https://images.pexels.com/photos/9633840/pexels-photo-9633840.jpeg?_gl=1*p3161a*_ga*MTM0MzM5NDkzNi4xNzg4MDk5MTg5*_ga_8JE65Q40S6*czE3ODg0MTk1ODgkbzUkZzEkdDE3ODg0MTk2NTQkajU5JGwwJGgw");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.statsBox:nth-child(2):hover {
+  background: url("https://images.pexels.com/photos/34772119/pexels-photo-34772119.jpeg?_gl=1*1drm28e*_ga*MTM0MzM5NDkzNi4xNzg4MDk5MTg5*_ga_8JE65Q40S6*czE3ODg0MTk1ODgkbzUkZzEkdDE3ODg0MjA0MzAkajU5JGwwJGgw");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.statsBox:nth-child(3):hover {
+  background: url("https://images.pexels.com/photos/6647027/pexels-photo-6647027.jpeg?_gl=1*1h3np3d*_ga*MTM0MzM5NDkzNi4xNzg4MDk5MTg5*_ga_8JE65Q40S6*czE3ODg0MTk1ODgkbzUkZzEkdDE3ODg0MjA2MjkkajI5JGwwJGgw");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.statsBox:last-child:hover {
+  background: url("https://images.pexels.com/photos/36729918/pexels-photo-36729918.jpeg?_gl=1*1r612hg*_ga*MTM0MzM5NDkzNi4xNzg4MDk5MTg5*_ga_8JE65Q40S6*czE3ODg0MTk1ODgkbzUkZzEkdDE3ODg0MjA5MzMkajE4JGwwJGgw");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.statsBox p:first-child {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .statsContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .statsBox {
+    width: 100%;
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .statsContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .statsBox {
+    width: 100%;
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .statsContent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
