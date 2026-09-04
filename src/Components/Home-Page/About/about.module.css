@@ -21,7 +21,7 @@
   gap: 1rem;
 }
 .aboutUs p:nth-child(1) {
-  color: orangered;
+  color: #eb5310;
 }
 .aboutUs p:nth-child(3) {
   line-height: 1.5;
@@ -40,7 +40,7 @@
 }
 .start1 svg,
 .start2 svg {
-  background-color: orangered;
+  background-color: #eb5310;
   padding: 7px;
   height: 30px;
   width: 30px;
@@ -53,9 +53,9 @@
   }
 }
 .cta2 svg {
-  padding: 8px;
-  height: 48px;
-  width: 48px;
+  padding: 10px;
+  height: 45px;
+  width: 45px;
   border: 1px solid #000;
   background: none;
 }
@@ -67,7 +67,7 @@
   gap: 0.3rem;
 }
 .call a:hover {
-  color: orangered;
+  color: #eb5310;
   transition: 0.3s ease;
 }
 @media (max-width: 1024px) {

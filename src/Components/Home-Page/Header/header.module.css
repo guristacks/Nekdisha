@@ -28,6 +28,7 @@ ul {
 ul li a {
   padding: 10px 15px;
   color: #ffffffa8;
+  font-weight: 500;
 }
 ul li a:hover {
   color: #fff;

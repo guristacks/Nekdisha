@@ -1,24 +1,54 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Fonts/Quicksand-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Fonts/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   color: #fff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Open Sans",
-    "Helvetica Neue",
-    sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 body {
   margin: 0;
   background-color: black;
+  font-family: "Quicksand", sans-serif;
 }
 img {
   width: 100%;
@@ -49,17 +79,21 @@ a {
   justify-content: space-between;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 700;
 }
 .cta {
-  background-color: orangered;
-  padding: 7px 7px;
-  padding-right: 15px;
+  background-color: #eb5310;
+  padding: 5px 7px;
+  padding-right: 10px;
   border-radius: 100px;
   font-weight: 500;
   width: fit-content;
+}
+.cta a {
+  font-size: 14px;
+  font-weight: 600;
 }
 svg {
   background-color: #fff;
@@ -93,9 +127,6 @@ svg {
 }
 
 @media (max-width: 480px) {
-  .cta a {
-    font-size: 16px;
-  }
   h2 {
     font-size: 2rem;
   }

@@ -6,7 +6,7 @@
 .title {
   gap: 1rem;
   p {
-    color: orangered;
+    color: #eb5310;
   }
 }
 .eventContent {
@@ -29,7 +29,6 @@
   h2 {
     color: #000;
     font-size: 1.2rem;
-    font-weight: 600;
     line-height: 1.4;
   }
   p:nth-child(2) {
@@ -38,12 +37,14 @@
     border-bottom: 1px solid #0000004b;
   }
   p:nth-child(3) {
-    color: orangered;
+    color: #eb5310;
     font-weight: bold;
-    font-size: 20px;
+    margin-bottom: -6px;
+    margin-top: 7px;
   }
   p:nth-child(4) {
     color: #000;
+    margin-bottom: 0.5rem;
   }
 }
 .imgBox {
@@ -69,8 +70,9 @@
   border-radius: 0.5rem;
   background-color: #fff;
   width: 4rem;
+  box-shadow: 1px 1px 8px -4px #000;
   p {
-    color: orangered;
+    color: #eb5310;
     text-align: center;
     font-weight: bold;
     font-size: 14px;
@@ -121,7 +123,6 @@
     }
     p:nth-child(4) {
       color: #000;
-      margin-bottom: 0.7rem;
     }
   }
   .imgBox,

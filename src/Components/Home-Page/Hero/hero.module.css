@@ -9,7 +9,7 @@
   gap: 1.4rem;
 }
 .heroOne p:first-child {
-  color: orangered;
+  color: #eb5310;
 }
 .heroOne p:nth-child(3) {
   width: 50%;
