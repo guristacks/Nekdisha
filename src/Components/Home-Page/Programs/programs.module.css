@@ -1,0 +1,134 @@
+.eventSec {
+  padding: 6rem 0;
+  padding-top: 2rem;
+  background-color: rgb(30, 37, 47);
+}
+.title {
+  gap: 1rem;
+  p {
+    color: orangered;
+  }
+}
+.eventContent {
+  gap: 3rem;
+}
+.eventBoxWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.eventBox {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 1.5rem;
+  width: 100%;
+}
+.eventBox {
+  h2 {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  p:nth-child(2) {
+    color: #000;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #0000004b;
+  }
+  p:nth-child(3) {
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  p:nth-child(4) {
+    color: #000;
+  }
+}
+.imgBox {
+  position: relative;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  width: 40%;
+  height: 100%;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.details {
+  gap: 0.5rem;
+  width: 60%;
+}
+.imgInner {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  width: 4rem;
+  p {
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .eventBoxWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .title h2 {
+    font-size: 3rem;
+  }
+  .imgBox {
+    height: 35vh;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    h2 {
+      margin-bottom: 1.4rem;
+      font-size: 2.5rem;
+      width: 100%;
+    }
+    br {
+      display: none;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .title h2 {
+    font-size: 2rem;
+  }
+  .eventBoxWrapper {
+    gap: 3rem;
+  }
+  .eventBox {
+    flex-direction: column;
+  }
+  .eventBox {
+    h2 {
+      font-size: 1.6rem;
+    }
+    p:nth-child(4) {
+      color: #000;
+      margin-bottom: 0.7rem;
+    }
+  }
+  .imgBox,
+  .details {
+    width: 100%;
+  }
+  .imgBox {
+    height: 40vh;
+  }
+}
