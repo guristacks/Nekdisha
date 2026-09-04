@@ -59,6 +59,7 @@ h2 {
   padding-right: 15px;
   border-radius: 100px;
   font-weight: 500;
+  width: fit-content;
 }
 svg {
   background-color: #fff;
