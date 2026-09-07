@@ -1,12 +1,13 @@
-import About from "./About/about";
-import Blogs from "./Blogs/blogs";
-import Footer from "./Footer/footer";
 import Header from "./Header/header";
 import Hero from "./Hero/hero";
-import Insta from "./InstaPosts/insta";
-import Join from "./JoinUs/join";
-import Programs from "./Programs/programs";
+import About from "./About/about";
 import Stats from "./Stats/stats";
+import Programs from "./Programs/programs";
+import Join from "./JoinUs/join";
+import Teams from "./OurTeam/team";
+import Blogs from "./Blogs/blogs";
+import Insta from "./InstaPosts/insta";
+import Footer from "./Footer/footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Stats />
       <Programs />
       <Join />
+      <Teams />
       <Blogs />
       <Insta />
       <Footer />

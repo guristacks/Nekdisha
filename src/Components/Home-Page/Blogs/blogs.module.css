@@ -70,7 +70,7 @@
   flex: 0 0 calc((100% - 3rem) / 2.5);
   min-width: 0;
   gap: 0.5rem;
-  background-color: rgb(230, 230, 229);
+  background-color: rgb(233, 233, 233);
   border-radius: 1.2rem;
   overflow: hidden;
 }
@@ -107,7 +107,7 @@
 .detailsBox {
   gap: 0.5rem;
   align-items: flex-start;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .detailsBox h2 {
   font-size: 1.5rem;
@@ -119,7 +119,7 @@
   margin: 0;
   line-height: 1.5;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 1024px) {

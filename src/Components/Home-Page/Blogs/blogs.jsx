@@ -138,7 +138,7 @@ const Blogs = () => {
                         <div className="svg">
                           <ChevronsRight color="#ff3c00" />
                         </div>
-                        <a href="#">Make Donation</a>
+                        <a href="#">Read More</a>
                       </div>
                     </div>
                   </article>
