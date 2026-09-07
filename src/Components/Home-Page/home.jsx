@@ -2,6 +2,7 @@ import About from "./About/about";
 import Footer from "./Footer/footer";
 import Header from "./Header/header";
 import Hero from "./Hero/hero";
+import Insta from "./InstaPosts/insta";
 import Join from "./JoinUs/join";
 import Programs from "./Programs/programs";
 import Stats from "./Stats/stats";
@@ -15,6 +16,7 @@ const Home = () => {
       <Stats />
       <Programs />
       <Join />
+      <Insta />
       <Footer />
     </>
   );
