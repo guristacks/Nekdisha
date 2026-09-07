@@ -19,8 +19,9 @@ footer h2 {
   padding: 1.5rem;
   border-radius: 1rem;
   h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 0;
+    margin-top: 0.3rem;
   }
 }
 .colHalf {
@@ -76,9 +77,6 @@ footer ul li a:hover {
 }
 
 @media (max-width: 1024px) {
-}
-
-@media (max-width: 768px) {
   footer {
     padding: 13rem 0;
     padding-bottom: 0;
@@ -95,7 +93,7 @@ footer ul li a:hover {
     flex-direction: column;
     gap: 3rem;
     h2 {
-      margin-bottom: 1ch;
+      margin-bottom: 1rem;
     }
     ul li a {
       padding: 5px 15px;
@@ -106,6 +104,12 @@ footer ul li a:hover {
     h2 {
       margin: 0;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .popUp {
+    width: 90%;
   }
   .row1,
   .row2,
