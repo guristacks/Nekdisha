@@ -70,9 +70,9 @@
   flex: 0 0 calc((100% - 3rem) / 2.5);
   min-width: 0;
   gap: 0.5rem;
-  background-color: rgb(233, 233, 233);
   border-radius: 1.2rem;
   overflow: hidden;
+  box-shadow: 0px 0px 12px -6px #000;
 }
 .imgBox {
   position: relative;
