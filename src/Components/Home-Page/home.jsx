@@ -1,4 +1,5 @@
 import About from "./About/about";
+import Blogs from "./Blogs/blogs";
 import Footer from "./Footer/footer";
 import Header from "./Header/header";
 import Hero from "./Hero/hero";
@@ -16,6 +17,7 @@ const Home = () => {
       <Stats />
       <Programs />
       <Join />
+      <Blogs />
       <Insta />
       <Footer />
     </>
