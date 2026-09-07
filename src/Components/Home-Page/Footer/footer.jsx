@@ -1,3 +1,6 @@
+import { ChevronRight } from "lucide-react";
+import { Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 import styles from "./footer.module.css";
 
 const Footer = () => {
@@ -9,7 +12,7 @@ const Footer = () => {
             {/* <div className={`${styles.icon} flex ac`}></div> */}
             <div className={`${styles.colmnHalf} flex fClmn`}>
               <p>Address</p>
-              <h2>4648 Rocky Road Philadelphia PA, 1920</h2>
+              <h2>Dhuri, District Sangrur, Punjab, India</h2>
             </div>
           </div>
           <div className={`${styles.colmn} flex ac`}>
@@ -46,19 +49,29 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <a href="#"> About Us</a>
+                <a href="#">
+                  <ChevronRight /> About Us
+                </a>
               </li>
               <li>
-                <a href="#"> Our Services</a>
+                <a href="#">
+                  <ChevronRight /> Our Services
+                </a>
               </li>
               <li>
-                <a href="#"> Our Blogs</a>
+                <a href="#">
+                  <ChevronRight /> Our Blogs
+                </a>
               </li>
               <li>
-                <a href="#"> FAQ's</a>
+                <a href="#">
+                  <ChevronRight /> FAQ's
+                </a>
               </li>
               <li>
-                <a href="#"> Contact Us</a>
+                <a href="#">
+                  <ChevronRight /> Contact Us
+                </a>
               </li>
             </ul>
           </div>
@@ -70,10 +83,14 @@ const Footer = () => {
             <h2>Contact Us</h2>
             <ul>
               <li>
-                <a href="#"> nekdisha@gmail.com</a>
+                <a href="#">
+                  <Mail /> nekdisha@gmail.com
+                </a>
               </li>
               <li>
-                <a href="#"> +91 76969 92194</a>
+                <a href="#">
+                  <Phone /> +91 76969 92194
+                </a>
               </li>
             </ul>
           </div>

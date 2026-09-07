@@ -22,6 +22,7 @@ footer h2 {
     font-size: 1rem;
     margin: 0;
     margin-top: 0.3rem;
+    cursor: pointer;
   }
 }
 .colHalf {
@@ -58,9 +59,23 @@ footer ul li a {
   padding-left: 0;
   font-size: 16px;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 footer ul li a:hover {
   color: #eb5310;
+}
+.row2 ul li a svg {
+  background: transparent;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+}
+.row4 ul li a svg {
+  background: transparent;
+  padding: 0;
+  width: 20px;
+  height: fit-content;
 }
 .policyWrapper {
   background-color: #eb5310;
@@ -74,6 +89,9 @@ footer ul li a:hover {
 }
 .policy {
   gap: 1.5rem;
+  p {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 1024px) {
