@@ -1,5 +1,4 @@
 .teamSec {
-  padding: 6rem 0;
   background-color: #fff;
   p,
   h2 {
@@ -55,6 +54,11 @@
 }
 
 @media (max-width: 1024px) {
+  .title {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1rem;
+  }
   .memberWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -52,7 +52,7 @@ const Teams = () => {
                 key={index}
               >
                 <div className={`${styles.imgBox} flex ac jc`}>
-                  <img src={member.image} alt="Member Image" />
+                  <img loading="lazy" src={member.image} alt="Member Image" />
                 </div>
                 <p>{member.name}</p>
                 <p>{member.position}</p>
