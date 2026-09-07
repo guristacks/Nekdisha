@@ -22,7 +22,11 @@ const Insta = () => {
           <div className={styles.sliderContainer}>
             {posts.map((post, index) => (
               <div className={styles.slide} key={index}>
-                <img src={post} alt={`Insta post ${index + 1}`} />
+                <img
+                  loading="lazy"
+                  src={post}
+                  alt={`Insta post ${index + 1}`}
+                />
               </div>
             ))}
           </div>

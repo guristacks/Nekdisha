@@ -2,15 +2,6 @@
   padding: 6rem 0;
   background: rgb(30, 37, 47);
 }
-.statsSec::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0px;
-  background: url("../../../../public/section-bg.svg");
-  mix-blend-mode: multiply;
-  opacity: 0.4;
-}
 .statsContent {
   gap: 2rem;
 }
