@@ -44,7 +44,7 @@ footer h2 {
 }
 .row1 p {
   line-height: 1.6;
-  color: #ffffffa8;
+  color: #ffffff;
   font-weight: 300;
 }
 .logo img {
@@ -53,6 +53,7 @@ footer h2 {
   object-fit: cover;
 }
 footer ul li a {
+  color: #ffffff;
   padding-left: 0;
   font-size: 16px;
   font-weight: 400;

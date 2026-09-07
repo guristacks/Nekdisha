@@ -35,8 +35,9 @@ const Footer = () => {
               <h2>Nek Disha</h2>
             </div>
             <p>
-              Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
-              lacinia curabitur lacinia mollis
+              Every act of kindness matters. When we choose compassion over
+              indifference, we take one small step toward a brighter and more
+              beautiful world.
             </p>
             <div className={`${styles.icons} flex ac`}></div>
           </div>
